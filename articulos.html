@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo_idexmod.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet" />
+    <title>Artículos</title>
+    <link rel="shortcut icon" href="imagenes/globos.png">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-light" style="background-color: #E6D72A;">
+    <div class="container">
+        <a class="navbar-brand fw-bold fuente_titulos fs-2 text-dark" href="#">Party Time Iliatenco</a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav text-center m-auto fs-4 mb-2 mb-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link text-dark fw-bold fuente-ul" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold fuente-ul" href="articulos.html">Artículos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold fuente-ul" href="galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold fuente-ul" href="#" data-mdb-toggle="modal"
+                        data-mdb-target="#modal_soporte">Soporte</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navbar -->
+<!-- inicia titulo -->
+<div class="container mt-3">
+    <!-- card header -->
+    <div class="card text-center bg-light  hover-shadow">
+        <div class="card-header">
+            <h2 class="titulo_galeria text-dark">Artículos de decoración</h2>
+        </div>
+    </div>
+    <!-- fin card header -->
+</div>
+<!-- fin titulo  -->
+<!-- carousel articulos -->
+<div class="container mt-3 my-3">
+    <div id="carouselExampleIndicators" class="carousel slide carousel-dark" data-mdb-ride="carousel">
+        <div class="carousel-inner">
+            <!-- slide uno -->
+            <div class="carousel-item active">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card hover-shadow hover-zoom bg-light my-3">
+                            <img src="imagenes/art_globos.jpg" class="card-img-top rounded" alt="" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Globos comunes</h5>
+                                <p class="card-text">
+                                    Contamos con diferentes tipos, tamaños y marcas de globos que podrá adquirir .
+                                </p>
+                                <button type="button" class="btn btn-outline-warning text-dark btn-rounded"
+                                    data-mdb-ripple-color="dark" data-mdb-toggle="modal"
+                                    data-mdb-target="#Modal_globoscomunes">Ver
+                                    listado</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card hover-shadow bg-light hover-zoom my-3">
+                            <img src="imagenes/art_l y n.jpg" class="card-img-top rounded" alt="" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Letras y números(globos)</h5>
+                                <p class="card-text">
+                                    Selecciona la variedad de globos de letras y números para decorar su evento especial
+                                </p>
+                                <a href="#"><button type="button" class="btn btn-outline-warning text-dark btn-rounded"
+                                        data-mdb-ripple-color="dark" data-mdb-toggle="modal"
+                                        data-mdb-target="#Modal_l_y_n">Ver listado</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card hover-shadow hover-zoom bg-light my-3">
+                            <img src="imagenes/art_caja_madera.jpg" class="card-img-top rounded" alt="" />
+                            <div class="card-body text-center">
+                                        <h5 class=" card-title">Cajas de madera </h5>
+                                <p class="card-text">También tenemos cajas de diferentes tamaños y formas para llenarlos de su aprecio </p>
+                                <a href="#"><button type="button" class="btn btn-outline-warning text-dark btn-rounded"
+                                        data-mdb-ripple-color="dark" data-mdb-toggle="modal"
+                                        data-mdb-target="#Modal_art_madera">Ver listado</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- slide dos -->
+            <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card hover-shadow hover-zoom bg-light my-3">
+                            <img src="imagenes/art_carton.jpg" class="card-img-top rounded" alt="" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Artículos de cartón</h5>
+                                <p class="card-text">
+                                    En esta sección se enlistan distintos tipos de accesorios y complementos para sus eventos
+                                </p>
+                                <button type="button" class="btn btn-outline-warning text-dark btn-rounded"
+                                    data-mdb-ripple-color="dark" data-mdb-toggle="modal"
+                                    data-mdb-target="#Modal_art_carton">Ver
+                                    listado</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card hover-shadow bg-light hover-zoom my-3">
+                            <img src="imagenes/art_plastico.jpg" class="card-img-top rounded" alt="" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Articulos de plastico</h5>
+                                <p class="card-text">
+                                    ¿Busca iluminar y darles intensidad a sus decoraciones? Elije algunos del listado
+                                </p>
+                                <a href="#"><button type="button" class="btn btn-outline-warning text-dark btn-rounded"
+                                        data-mdb-ripple-color="dark" data-mdb-toggle="modal"
+                                        data-mdb-target="#Modal_art_plasticos">Ver listado</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card hover-shadow hover-zoom bg-light my-3">
+                            <img src="imagenes/art_fomi.jpg" class="card-img-top rounded" alt="" />
+                            <div class="card-body text-center">
+                                        <h5 class=" card-title">Artículos de fomi y unicel </h5>
+                                <p class="card-text">
+                                    Selecciona y adquiere distintas figuras decorativas para tus eventos especiales 
+                                </p>
+                                <a href="#"><button type="button" class="btn btn-outline-warning text-dark btn-rounded"
+                                        data-mdb-ripple-color="dark" data-mdb-toggle="modal"
+                                        data-mdb-target="#Modal_art_fomi">Ver listado</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev"  type="button" data-mdb-target="#carouselExampleIndicators"
+            data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators"
+            data-mdb-slide="next">
+            <span class="carousel-control-next-icon"  aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<!-- carousel articulos -->
+
+<!-- inicia modal globos comunes -->
+
+<div class="modal fade" id="Modal_globoscomunes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Artículos en venta</h5>
+                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- inicia lista -->
+                <div class="content">
+                    <div class="card one hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 1</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Globo metálico perla 9 pulgadas</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos decorator 7, 9 y 12 pulgadas</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos con puntos </span>
+                            </div>
+                            <div class="one">
+                                <span>Globos impresos de corazón</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos Neón</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo metálico 9 pulgadas</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo normal 4 pulgadas</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo impreso mi presentación</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card two hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 2</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Globo confeti extra jumbo</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo metálico efecto ballons</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo efecto burbuja</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo Ballons calidad helio de 100s</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo ballons calidad helio de 25s</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo impreso figura de besos </span>
+                            </div>
+                            <div class="one">
+                                <span>Globo impreso mi bautizo</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo transparente </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card three hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 3</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Globo de látex</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos cromados largos</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos Ballons</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo transparente </span>
+                            </div>
+                            <div class="one">
+                                <span>Globo confeti extra jumbo </span>
+                            </div>
+                            <div class="one">
+                                <span>Globos impresos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin lista -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-info btn-rounded text-dark" data-mdb-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div><!-- fin modal globos comunes -->
+
+<!-- inicia modal letras y numeros-->
+
+<div class="modal fade" id="Modal_l_y_n" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Artículos en venta</h5>
+                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- inicia lista -->
+                <div class="content">
+                    <div class="card one hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 1</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Letras happy birthday Núm.502,1003,1001,969,658,88</span>
+                            </div>
+                            <div class="one">
+                                <span>Letras feliz cumpleaños Núm.647</span>
+                            </div>
+                            <div class="one">
+                                <span>Letras feliz cumpleaños en cursiva </span>
+                            </div>
+                            <div class="one">
+                                <span>Letras Baby Shower niño y niña Núm. 498 y 499</span>
+                            </div>
+                            <div class="one">
+                                <span>Letras “LOVE”</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos en forma de corazones Foil ballon</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos “TE AMO” en letra cursiva</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos “TE AMO” normales </span>
+                            </div>
+                            <div class="one">
+                                <span>Globos en forma de octágono</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo en forma de moño</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo confetis</span>
+                            </div>
+                            <div class="one">
+                                <span>Bouquets de globo</span>
+                            </div>
+                            <div class="one">
+                                <span>Bouquets de bautizo</span>
+                            </div>
+                            <div class="one">
+                                <span>Bouquets de globo “futbol”</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos Jumbo número 1</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo jumbo número 3</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo jumbo número 5</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo ballon número 3 35 cm.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card two hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 2</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Globos “TE AMO” con corazones</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos “TE AMO” paquete de rosa</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos letras “ MI BODA”</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos revelación sexo</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos figura de bebe </span>
+                            </div>
+                            <div class="one">
+                                <span>Globo estrella mágica</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos de corazón fondo “te amo”</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos temática “donas”</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo letras “te amo mamá”</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos temática “ vaquita”</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos temática “animalitos”</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos chinos</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos de luna</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos de letras “A, B, D, H, I, N, O, P, R, Y” Núm. 16 y 32</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo número 2 con figura Núm. 34</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo número 3 con figura Núm. 34</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo jumbo número 6 </span>
+                            </div>
+                            <div class="one">
+                                <span>Globo ballon número 4 35 cm.</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo ballon número 5 35 cm. </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card three hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 3</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Globos decorativos</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos temática astronauta</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos temática Spider man</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos temática Rayo macuin</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos temática unicornio</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo temática corona</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos temática “pizza, dona palomitas” </span>
+                            </div>
+                            <div class="one">
+                                <span>Globo temática “Lol Suprise”</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo temática “Paw Patrol”</span>
+                            </div>
+                            <div class="one">
+                                <span>Banda “la novia”</span>
+                            </div>
+                            <div class="one">
+                                <span>Banda “futura mamá”</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo de la letra "C, E, F, K, L, M, N, S, T, U, X, Z" Núm. 16</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo de número "0, 1, 2, 3, 4, 5, 6, 7, 8, 9" Núm. 32</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo de número 1 con figura Núm. 34</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo jumbo número 8</span>
+                            </div>
+                            <div class="one">
+                                <span>Globos Ballon número 1 35 cm.</span>
+                            </div>
+                            <div class="one">
+                                <span>Globo Ballon número 2 35 cm.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin lista -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-info btn-rounded text-dark" data-mdb-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div><!-- fin modal letras y numeros -->
+<!-- inicia modal articulos madera-->
+<div class="modal fade" id="Modal_art_madera" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Artículos en venta</h5>
+                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- inicia lista -->
+                <div class="content">
+                    <div class="card one hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 1</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Caja letra A</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja letra E</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja letra F</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja letra I</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja letra J</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja letra K</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja letra L</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja para botella</span>
+                            </div>
+                            <div class="one">
+                                <span>Cajas chicas mini frutero</span>
+                            </div>
+                            <div class="one">
+                                <span>Cajas con adorno</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja charolas chica y grande</span>
+                            </div>
+                            <div class="one">
+                                <span>Centro de mesa “ mi bautizo” </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card two hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 2</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Caja letra M</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja letra N</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja letra Ñ</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja letra P</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja letra Q</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja letra S</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja letra U</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja gruesa con división</span>
+                            </div>
+                            <div class="one">
+                                <span>Paleta feliz cumpleaños </span>
+                            </div>
+                            <div class="one">
+                                <span>Paleta mi primera comunión</span>
+                            </div>
+                            <div class="one">
+                                <span>Paleta felicidades</span>
+                            </div>
+                            <div class="one">
+                                <span>Centro de mesa “ nuestra boda”</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card three hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 3</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Caja letra V</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja letra Y</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja letra Z</span>
+                            </div>
+                            <div class="one">
+                                <span>Base para pastel </span>
+                            </div>
+                            <div class="one">
+                                <span>Cajas de cubo </span>
+                            </div>
+                            <div class="one">
+                                <span>Cajas de cubo con tapa</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja de cuadro con tapa</span>
+                            </div>
+                            <div class="one">
+                                <span>Paleta papá feliz día</span>
+                            </div>
+                            <div class="one">
+                                <span>Paleta felicidades mamá</span>
+                            </div>
+                            <div class="one">
+                                <span>Paleta reina de la casa</span>
+                            </div>
+                            <div class="one">
+                                <span>Paleta mi bautizo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin lista -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-info btn-rounded text-dark" data-mdb-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div><!-- fin modal art. madera-->
+<!-- inicia modal articulos plastico-->
+<div class="modal fade" id="Modal_art_plasticos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Artículos en venta</h5>
+                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- inicia lista -->
+                <div class="content">
+                    <div class="card one hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 1</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Mantel de cumpleaños</span>
+                            </div>
+                            <div class="one">
+                                <span>Paja decorativa</span>
+                            </div>
+                            <div class="one">
+                                <span>Moños pequeños</span>
+                            </div>
+                            <div class="one">
+                                <span>Cortinas simples</span>
+                            </div>
+                            <div class="one">
+                                <span>Cortinas decorativas </span>
+                            </div>
+                            <div class="one">
+                                <span>Cortinas de cumpleaños con puntos</span>
+                            </div>
+                            <div class="one">
+                                <span>Tira “ mamá eres mi reina”</span>
+                            </div>
+                            <div class="one">
+                                <span>Diademas fiesta</span>
+                            </div>
+                            <div class="one">
+                                <span>Moños de plastico</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card two hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 2</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Cortinas de cumpleaños figura de canasta</span>
+                            </div>
+                            <div class="one">
+                                <span>Chenil metálico</span>
+                            </div>
+                            <div class="one">
+                                <span>Bolsa de aguinaldos</span>
+                            </div>
+                            <div class="one">
+                                <span>Porta globo</span>
+                            </div>
+                            <div class="one">
+                                <span>Velitas de véngala de número</span>
+                            </div>
+                            <div class="one">
+                                <span>Velitas de figura estrella y corazón </span>
+                            </div>
+                            <div class="one">
+                                <span>Pompones metálicos</span>
+                            </div>
+                            <div class="one">
+                                <span>Rosas de plástico grandes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card three hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 3</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Velas de curri</span>
+                            </div>
+                            <div class="one">
+                                <span>Velas matizado</span>
+                            </div>
+                            <div class="one">
+                                <span>Velas de colores cromados</span>
+                            </div>
+                            <div class="one">
+                                <span>Velitas mágicas</span>
+                            </div>
+                            <div class="one">
+                                <span>Tira “ feliz día mamá”</span>
+                            </div>
+                            <div class="one">
+                                <span>Tira “ feliz cumpleaños”</span>
+                            </div>
+                            <div class="one">
+                                <span>Tiras de luces Led</span>
+                            </div>
+                            <div class="one">
+                                <span>Rosas de plástico chicas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin lista -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-info btn-rounded text-dark" data-mdb-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div><!-- fin modal art. plastico-->
+
+<!-- inicia modal articulos fomi y unicel-->
+<div class="modal fade" id="Modal_art_fomi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Artículos en venta</h5>
+                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- inicia lista -->
+                <div class="content">
+                    <div class="card one hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 1</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Pompones de arcoíris</span>
+                            </div>
+                            <div class="one">
+                                <span>Letras decorativas “ feliz día mamá”</span>
+                            </div>
+                            <div class="one">
+                                <span>Fomi figura de “ Frozeen “</span>
+                            </div>
+                            <div class="one">
+                                <span>Fomi figura de “ Minie “</span>
+                            </div>
+                            <div class="one">
+                                <span>Fomi figura de “ Capitán América “</span>
+                            </div>
+                            <div class="one">
+                                <span>Fomi figura de “ Dinosaurio “</span>
+                            </div>
+                            <div class="one">
+                                <span>Moño de tela chicos y grandes </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card two hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 2</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Fomi figura de “ Toy Stori “</span>
+                            </div>
+                            <div class="one">
+                                <span>Fomi figura de “ Bob esponja “</span>
+                            </div>
+                            <div class="one">
+                                <span>Fomi figura de “ Barbie “</span>
+                            </div>
+                            <div class="one">
+                                <span>Fomi figura de “ Niña de Bu “</span>
+                            </div>
+                            <div class="one">
+                                <span>Fomi figura de “ Mario Bross “</span>
+                            </div>
+                            <div class="one">
+                                <span>Fomi figura de “ Winnie Pooh “</span>
+                            </div>
+                            <div class="one">
+                                <span>Tiras de “ feliz cumpleaños “</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card three hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 3</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Fomi figura de “ botas “</span>
+                            </div>
+                            <div class="one">
+                                <span>Fomi figura de “ Super Man “</span>
+                            </div>
+                            <div class="one">
+                                <span>Letrero “ Mi bautizo “</span>
+                            </div>
+                            <div class="one">
+                                <span>Letrero “ Mi primera comunión “ chico</span>
+                            </div>
+                            <div class="one">
+                                <span>Letrero “ Mi primera Comunión “ grande</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin lista -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-info btn-rounded text-dark" data-mdb-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div><!-- fin modal art. fomi y unicel-->
+<!-- inicia modal articulos carton-->
+<div class="modal fade" id="Modal_art_carton" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Artículos en venta</h5>
+                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- inicia lista -->
+                <div class="content">
+                    <div class="card one hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 1</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Velas mágicas chicas</span>
+                            </div>
+                            <div class="one">
+                                <span>Velas mágicas grandes</span>
+                            </div>
+                            <div class="one">
+                                <span>Velas de humo</span>
+                            </div>
+                            <div class="one">
+                                <span>Tiras de feliz cumpleaños</span>
+                            </div>
+                            <div class="one">
+                                <span>Tiras de princesa</span>
+                            </div>
+                            <div class="one">
+                                <span>Tiras de animalitos</span>
+                            </div>
+                            <div class="one">
+                                <span>Tira baby dow</span>
+                            </div>
+                            <div class="one">
+                                <span>Invitaciones de bautizo</span>
+                            </div>
+                            <div class="one">
+                                <span>Invitaciones de fiesta “Picachu”</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card two hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 2</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Tira de Disney</span>
+                            </div>
+                            <div class="one">
+                                <span>Velas temática pepa</span>
+                            </div>
+                            <div class="one">
+                                <span>Velas temática paw patrol</span>
+                            </div>
+                            <div class="one">
+                                <span>Bazucas grandes</span>
+                            </div>
+                            <div class="one">
+                                <span>Bazucas chicas</span>
+                            </div>
+                            <div class="one">
+                                <span>Lanza chispas</span>
+                            </div>
+                            <div class="one">
+                                <span>Gorros de cumpleaños</span>
+                            </div>
+                            <div class="one">
+                                <span>Invitaciones de fiesta “Toy Stori”</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card three hover-shadow">
+                        <div class="top">
+                            <div class="title">Lista 3</div>
+                        </div>
+                        <div class="details">
+                            <div class="one">
+                                <span>Cajas de aguinaldo</span>
+                            </div>
+                            <div class="one">
+                                <span>Palillo del resplandor</span>
+                            </div>
+                            <div class="one">
+                                <span>Mini cajas de regalo</span>
+                            </div>
+                            <div class="one">
+                                <span>Cajas explosivas 25 x 25</span>
+                            </div>
+                            <div class="one">
+                                <span>Cajas explosivas 30 x 30</span>
+                            </div>
+                            <div class="one">
+                                <span>Cajas grandes decoradas</span>
+                            </div>
+                            <div class="one">
+                                <span>Caja de aguinaldo</span>
+                            </div>
+                            <div class="one">
+                                <span>Invitaciones de fiesta “ Paw Patrol”</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin lista -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-info btn-rounded text-dark" data-mdb-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div><!-- fin modal art. carton-->
+
+<!-- modal soporte -->
+<div class="modal fade" id="modal_soporte" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-scrollable ">
+        <div class="modal-content text-center">
+            <div class="modal-header bg-success bg-opacity-50">
+                <h5 class="modal-title" id="exampleModalLabel">Soporte técnico</h5>
+                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <h5 class="text-center mt-2">PTI Versión 1.0</h5>
+            <div class="modal-body">
+                <div class="card  hover-shadow bg-light card border border-light ">
+                    <h5 class="card-header text-center fw-bold">Maquetación y diseño</h5>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item me-2">Ing. Miguel Ángel Cruz Guzmán
+                                <p><i class="fas fa-envelope me-2"></i>cruzguzman8@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card mt-3 hover-shadow bg-light card border border-light">
+                    <h5 class="card-header text-center fw-bold ">Colaboración y documentación</h5>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item me-2">Mauro Rea Feliciano
+                                <p><i class="fas fa-envelope me-2"></i>mauroanyimar@gmail.com</p>
+                            </li>
+                            <li class="list-group-item me-2">Femima Hilario Genchi
+                                <p><i class="fas fa-envelope me-2"></i>genchi23031998@gmail.com</p>
+                            </li>
+                            <li class="list-group-item me-2">Reynalda Morales Valdez
+                                <p><i class="fas fa-envelope me-2"></i>chuyeri98@gmail.com</p>
+                            </li>
+                            <li class="list-group-item me-2">Crisostomo Zarate Garcia
+                                <p><i class="fas fa-envelope me-2"></i>crisjahel1996@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- fin modal soporte -->
+
+<!-- inicia footer -->
+<footer class="page-footer font-small"
+    style="background-image: url(imagenes/background-footer.svg); background-repeat: no-repeat; background-size: cover; width: 100%; padding: 50px 0px;">
+    <div class="container mt-4">
+        <div class="row">
+            <div class=" col-md-5 justify-content-center p-4  ">
+                <h4 class="text-center d-none d-lg-block fw-bold titulo_galeria">Party Time Iliatenco</h4>
+                <ul class="list-unstyled mb-0 text-center">
+                    <li>
+                        <a href="https://www.facebook.com/Party-Time-Iliatenco-106765064491254" target="_blank"
+                            rel="noopener noreferrer">
+                            <button type="button" class="btn btn-primary btn-floating mt-3"
+                                style="background-color: #0D47A1;">
+                                <i class="fab fa-facebook-f fa-2x"></i>
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://goo.gl/maps/4m4tyD1Qs1AJMSye7" target="_blank" rel="noopener noreferrer">
+                            <button type="button" class="btn btn-danger btn-floating mt-3">
+                                <i class="fas fa-map-marker-alt fa-2x"></i>
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=777 450 1282&text=%20" target="_blank"
+                            rel="noopener noreferrer">
+                            <button type="button" class="btn btn-success btn-floating mt-3">
+                                <i class="fab fa-whatsapp fa-2x"></i>
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 p-4  text-center">
+                <h4 class="fw-bold titulo_galeria">Ir a:</h4>
+                <ul class="list-unstyled mb-0 ">
+                    <li>
+                        <a href="index.html" class="text-dark ">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="articulos.html" class="text-dark">Artículos</a>
+                    </li>
+                    <li>
+                        <a href="galeria.html" class="text-dark">Galería</a>
+                    </li>
+                    <li>
+                        <a href="#" data-mdb-toggle="modal" data-mdb-target="#modal_soporte"
+                            class="text-dark">Soporte</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-5  p-4 text-center">
+                <!-- Links -->
+                <h4 class="fw-bold titulo_galeria">
+                    Ubicación y contactos:
+                </h4>
+                <p><i class="fas fa-home me-2"></i>Calle 16 de sep. #16. Col.Centro, Iliatenco, Gro.</p>
+                <p>
+                    <i class="fas fa-envelope me-2"></i>
+                    partytimeiliatenco@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-2"></i>777 450 1282</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer -->
+
+
+
+
+
+ <!-- MDB -->
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
+</body>
+</html>

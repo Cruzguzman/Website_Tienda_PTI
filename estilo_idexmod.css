@@ -1,0 +1,76 @@
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
+  .fuente_titulos{
+    font-family: 'Quintessential', cursive;
+  }
+  .fuente-ul{
+    font-family: 'Redressed', cursive;
+  }
+  .tamaño{
+    font-size: x-large
+  }
+  .titulo_galeria{
+    font-family: 'Akaya Telivigala', cursive;
+  }
+ 
+
+
+  /* FOOTER
+footer{
+  width: 100%;
+  padding: 50px 0px;
+  background-image: url(../imagenes/background-footer.svg);
+  background-size: cover;
+}
+
+.contenedor-footer{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 25px;
+  margin-top: 50px;
+  border-bottom: 1px solid rgb(14, 13, 13);
+}
+
+.content-foo{
+  text-align: center;
+}
+
+.content-foo h4{
+  color: rgb(15, 15, 15);
+  border-bottom: 3px solid #194A8D;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+footer .content-foo a{
+  color: rgb(19, 18, 18);
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+footer .content-foo a i{
+  margin-right: 10px;
+  color: #194A8D;
+}
+
+.titulo-final{
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 0 0 0;
+  color: #0c0c0c;
+} */
